@@ -17,7 +17,7 @@ import {useContext} from "react";
 import {AuthContext} from "./Auth/AuthContext.jsx";
 
 const pages = ['Dashboard'];
-const settings = ['Profile', 'Account', 'Contact', 'Logout'];
+const settings = ['Profile', 'Account', 'Contact', 'Logout' ];
 
 function ResponsiveAppBar() {
     const { user } = useContext(AuthContext);
